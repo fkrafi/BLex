@@ -1,0 +1,9 @@
+﻿#!/blex/
+[০-৯]*		=>	NUMBER
+যদি|পূর্ণ		=>	KEYWORD
+[ঁ-৺]*		=>	IDENTIFIER
+[a-z]*		=>	SMALL
+[A-Z]*		=>	BIG
+[a-zA-Z]*	=>	ALL
+[0-9]*		=>	DIGIT
+# this is a comment
